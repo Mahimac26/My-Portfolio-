@@ -1,0 +1,137 @@
+body{
+   background-color: black; 
+  
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image:url("background.image.jpeg2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center ;
+
+}
+h2{
+    color: rgba(250, 235, 238, 0.986);
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding-left: 8%;
+   padding-right: 8%;
+   padding-top: 10px;
+}
+.logo{
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+span{
+    color: #ce5a67;
+}
+nav ul li {
+    color: white;
+    list-style-type: none;
+    padding-right: 80px;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition-duration: .4s;
+}
+.follow{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.follow:hover{
+    transform: scale(1.2);
+}
+.content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    display:inline;
+}
+.image{
+    display: inline;
+
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+.about{
+    color:white;
+}
+.about-text{
+    color: aliceblue;
+   /* padding-left: 40%;
+    width: 550px;
+    max-width:95% ;
+    font-size :20px;
+    margin: 0 auto;
+    display: flex;
+    align-items:right;
+    justify-content: space-around;*/
+}
+.about-text h4{
+    color:#f9004d;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.education{
+    color: aliceblue;
+}
+.education-text{
+    color: aliceblue;
+   /* width: 550px;
+    max-width:95% ;
+    font-size :20px;
+    margin: 0 auto;
+    display: flex;
+    align-items:left;
+    justify-content: space-around;*/
+     
+}
+.education-text h4{
+    color:#f9004d;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.contact{
+    color:aliceblue;
+}
+.contact-text h4{
+    color:#f9004d;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+::-webkit-input-placeholder{
+    color: #ce5a67;
+    transition:opacity .5s ease-in-out;
+}
+focus::-webkit-input-placeholder{
+    opacity: 0.5;
+}
